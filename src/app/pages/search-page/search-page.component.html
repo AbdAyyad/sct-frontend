@@ -1,0 +1,9 @@
+<main>
+  <app-search-form [searchInput]="currentSearch"></app-search-form>
+  <mat-paginator [length]="totalResult"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[10]"
+                 (page)="onPageChange($event)">
+  </mat-paginator>
+  <app-movie-list [data]="searchResult"></app-movie-list>
+</main>

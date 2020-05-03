@@ -1,0 +1,18 @@
+
+div {
+  width: 100%;
+
+  mat-form-field {
+    width: 600px;
+    margin-left: 30%;
+
+    input {
+      height: 23px;
+    }
+  }
+}
+
+.submit-button {
+  margin-left: 10px;
+  bottom: 10px;
+}

@@ -1,0 +1,12 @@
+<mat-grid-list cols="5" rowHeight="550px">
+  <mat-grid-tile *ngFor="let entry of data" (click)="navigateToMovie(entry.imdbID)">
+
+    <mat-grid-tile-header>
+      {{ entry.Title }}
+    </mat-grid-tile-header>
+    <img [src]="entry.Poster" [alt]="entry.Title">
+    <mat-grid-tile-footer>
+      {{ entry.Type }} | {{ entry.Year }}
+    </mat-grid-tile-footer>
+  </mat-grid-tile>
+</mat-grid-list>

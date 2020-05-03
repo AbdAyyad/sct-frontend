@@ -1,0 +1,24 @@
+mat-toolbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  mat-toolbar-row {
+    span {
+      margin-left: 5%;
+
+      &.text-center {
+        margin: auto;
+        text-align: center;
+        font-size: 9pt;
+      }
+    }
+
+    &.second-line {
+      background: #a179e8;
+      max-height: 25px;
+    }
+  }
+
+  height: 90px;
+}

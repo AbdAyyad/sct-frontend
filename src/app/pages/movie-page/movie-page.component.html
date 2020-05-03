@@ -1,0 +1,6 @@
+<mat-toolbar>
+  <a class="link" routerLink="/">Home</a>
+  <a class="link" (click)="navigateToSearchPage()">Search: {{search | async}}</a>
+  <a>{{(data | async)?.Title}}</a>
+</mat-toolbar>
+<app-single-movie [data]="data | async"></app-single-movie>

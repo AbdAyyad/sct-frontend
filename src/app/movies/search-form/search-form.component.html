@@ -1,0 +1,12 @@
+<form (ngSubmit)="onSubmitForm(form)" #form="ngForm">
+  <div>
+    <mat-form-field appearance="fill">
+      <mat-label>search keyword</mat-label>
+      <input matInput ngModel="{{searchInput}}" required type="text" name="search" value="{{searchInput}}"/>
+    </mat-form-field>
+    <button mat-fab color="primary" class="submit-button">
+      <mat-icon>search</mat-icon>
+    </button>
+  </div>
+</form>
+

@@ -1,0 +1,12 @@
+mat-grid-list {
+  bottom: 92px;
+  margin-top: 92px;
+
+  mat-grid-tile-header {
+    font-size: large;
+  }
+
+  :hover {
+    background: #57a2ff;
+  }
+}

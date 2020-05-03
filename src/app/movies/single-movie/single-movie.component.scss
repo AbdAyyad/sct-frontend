@@ -1,0 +1,17 @@
+mat-card {
+  margin-left: 30%;
+  width: 40%;
+  bottom: 92px;
+  margin-top: 97px;
+
+  img {
+    margin-left: 14%;
+    width: 500px;
+  }
+
+  mat-card-content {
+    :nth-child(1) {
+      font-weight: bold;
+    }
+  }
+}
